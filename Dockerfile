@@ -1,6 +1,6 @@
 FROM node:8-slim
 
-COPY ./hello-microservice/package*.json /
+COPY ./package*.json /
 
 RUN npm install
 
